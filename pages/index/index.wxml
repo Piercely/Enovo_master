@@ -1,0 +1,44 @@
+<view class="pyg_index">
+    <!-- 搜索框 开始 -->
+    <SearchInput></SearchInput>
+    <!-- 搜索框 结束 -->
+    <!-- 搜索框 开始 -->
+    <view class="index_swiper">
+        <swiper autoplay indicator-dots circular>
+            <swiper-item>
+                <navigator>
+                    <image mode="widthFix" src="https://i.r1s.cn/i/2022/10/10/x75noa.png" />
+                </navigator>
+            </swiper-item>
+            <swiper-item>
+                <navigator>
+                    <image mode="widthFix" src="https://i.r1s.cn/i/2022/10/10/x7k1wf.png" />
+                </navigator>
+            </swiper-item>
+            <swiper-item>
+                <navigator>
+                    <image mode="widthFix" src="https://i.r1s.cn/i/2022/10/10/x7k7ez.png" />
+                </navigator>
+            </swiper-item>
+            <swiper-item>
+                <navigator>
+                    <image mode="widthFix" src="https://i.r1s.cn/i/2022/10/10/x7kyxs.png" />
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 搜索框 结束 -->
+    <!-- 导航 开始 -->
+    <view class="index_cate">
+        <navigator url="/pages/register/index">
+            <image mode="widthFix" src="https://s1.328888.xyz/2022/10/10/gQ9BX.png" />
+        </navigator>
+        <navigator url="/pages/line/index">
+            <image mode="widthFix" src="https://s1.328888.xyz/2022/10/10/gQcnj.png" />
+        </navigator>
+    </view>
+    <view>
+    <text>\n\n\n\n\n\n</text>
+        <text class='cls3-a'>🔔【服务通知】 若出现任何服务异常问题，请联系客服微信: Enovo 为您处理! ❤️</text>
+    </view>
+</view>

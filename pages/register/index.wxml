@@ -1,0 +1,73 @@
+<view class="pyg_index">
+    <view class="index_swiper">
+        <image mode="widthFix" src="https://i.r1s.cn/i/2022/10/10/x7k1wf.png" />
+    </view>
+</view>
+<!-- 创建队伍 -->
+<view class="create1">
+    <navigator>
+        <view class="CREATE_STABLE" class="iconfont .icon-tubiaozhizuo-" style="font-size: 40rpx;">
+            创建队伍
+        </view>
+    </navigator>
+</view>
+<view class="text">声明:仅限社区工作人员及队伍组织者使用,请勿个人私自组建队伍，干扰队伍秩序。</view>
+<view class="page-body">
+    <view class="view-contain-ti">
+        <text class="text-ti">队伍名称</text>
+        <input class="input1" confirm-type="next" type="text" placeholder="请输入队伍名称" />
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">个人姓名</text>
+        <input class="input1" confirm-type="next" type="text" placeholder="请输入您的姓名" />
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">联系电话</text>
+        <input class="input1" maxlength="11" type="number" placeholder="请输入联系电话" />
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">上限人数</text>
+        <input class="input1" type="number" placeholder="请输入队伍上限人数" />
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">日期</text>
+        <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+            <view class="font30">
+                <view class="picker" class="iconfont.icon-tiaoshishuruzhishifu" style="font-size: 30rpx;">
+                    日期 : {{date}}
+                </view>
+            </view>
+        </picker>
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">开始时间</text>
+        <view class="font30">
+            <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+                <view class="picker" class="iconfont.icon-tiaoshishuruzhishifu" style="font-size: 30rpx;">
+                    开始时间 :  {{times}}
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">结束时间</text>
+        <view class="font30">
+            <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChanges">
+                <view class="picker" class="iconfont.icon-tiaoshishuruzhishifu" style="font-size: 30rpx;">
+                    结束时间 :  {{times2}}
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="view-contain-ti">
+        <text class="text-ti">队伍密码</text>
+        <input class="input1" type="digit" bindinput="bindKeyInput" placeholder="请输入队伍密码" />
+    </view>
+    <view class="view-contain-ti-s">
+        <text class="text-ti-s">备注信息</text>
+        <input class="input1-s" confirm-type="done" type="text" placeholder="请输入备注信息" />
+    </view>
+    <button class="btn1" bindtap="gocategory" style="width: 650rpx; height: 85rpx;background-color:#1296db" type="primary" form-type="submit">
+        提交
+    </button>
+</view>

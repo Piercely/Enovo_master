@@ -1,0 +1,20 @@
+.index_swiper swiper {
+  width: 750rpx;
+  height: 500rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+}
+.index_cate {
+  display: flex;
+}
+.index_cate navigator {
+  padding: 20rpx;
+  flex: 1;
+}
+.index_cate navigator image {
+  width: 100%;
+}
+.cls3-a {
+  font-size: 30rpx;
+}

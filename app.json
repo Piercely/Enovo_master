@@ -1,0 +1,57 @@
+
+{
+    "lazyCodeLoading": "requiredComponents",
+  "pages":[
+    "pages/index/index",
+    "pages/category/index", 
+    "pages/line/index",
+    "pages/join/index",
+    "pages/inform/index",  
+    "pages/about/index",
+    "pages/register/index",
+    "pages/group/index",
+    "pages/help/index",
+    "pages/realease/index",
+    "pages/versions/index",
+    "pages/setting/index",
+    "pages/recently/index",
+    "pages/user/index",
+    "pages/login/index"
+  ], 
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "Enovo排队管家",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",  
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "icons/_home.png",
+        "selectedIconPath": "icons/home.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "服务",
+        "iconPath": "icons/_order.png",
+        "selectedIconPath": "icons/order.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/_my.png",
+        "selectedIconPath": "icons/my.png"
+      }
+    ]
+  },
+  
+
+  "sitemapLocation": "sitemap.json"
+}
